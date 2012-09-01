@@ -1,9 +1,0 @@
-_sandbox:
-    resource: "@AcmeSandboxBundle/Controller/"
-    type:     annotation
-    prefix:   /sandbox
-
-# Internal routing configuration to handle ESI
-#_internal:
-#    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
-#    prefix:   /_internal
