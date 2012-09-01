@@ -2,11 +2,6 @@ _welcome:
     pattern:  /
     defaults: { _controller: AcmeDemoBundle:Welcome:index }
 
-_sandbox:
-    resource: "@AcmeDemoBundle/Controller/SandboxController.php"
-    type:     annotation
-    prefix:   /sandbox
-
 _demo_secured:
     resource: "@AcmeDemoBundle/Controller/SecuredController.php"
     type:     annotation

@@ -20,7 +20,11 @@ class AppKernel extends Kernel
             new JMS\DiExtraBundle\JMSDiExtraBundle($this),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
 
-            // Coodit bundles
+            // Coodit Sandbox
+            new Acme\SandboxBundle\AcmeSandboxBundle(),
+            new FOS\UserBundle\FOSUserBundle(),
+
+            // Coodit Bundles
             new Coo\FriendshipBundle\CooFriendshipBundle(),
         );
 
